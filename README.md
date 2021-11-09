@@ -1,2 +1,2 @@
 # gsa-web
-The website for Quakertown Community High School's GSA
+The website for Quakertown Commu
