@@ -32,6 +32,7 @@
 .topnav a:hover {
     background-color: var(--topnavHover);
     color: var(--topnavText);
+    transition: background-color 50ms linear;
 }
 .topnav > .active {
     background-color: var(--topnavActive);
