@@ -1,0 +1,51 @@
+:root {
+    --primary: #A6CFD5;
+    --ptext: #320E3B;
+    --pfont: Arial, Helvetica, sans-serif;
+    --secondary: #E56399;
+    --stext: #8C1848;
+    --sfont: Arial, Helvetica, sans-serif;
+    --topnavBackground: #7F96FF;
+    --topnavActive: #E46298;
+    --topnavText: #320E3B;
+    --topnavActiveText: #320E3B;
+    --topnavHover: #59A5B1;
+    --topnavAPadding: 10px;
+    --topnavPadding: 15px;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--ptext);
+    font-family: var(--pfont);
+}
+
+.topnav, .topnav a {
+    background-color: var(--topnavBackground);
+    color: var(--topnavText);
+    padding: var(--topnavAPadding);
+    border-radius: 2px;
+}
+.topnav {
+    padding: var(--topnavPadding)
+}
+.topnav a:hover {
+    background-color: var(--topnavHover);
+    color: var(--topnavText);
+}
+.topnav > .active {
+    background-color: var(--topnavActive);
+    color: var(--topnavActiveText);
+}
+
+.threed {
+    box-shadow: 3px 3px 0px #000000;
+}
+.box {
+    border-radius: 20px;
+    background-color: var(--secondary);
+    color: var(--stext);
+    width: max-content;
+    padding: 1px 3px 1px 3px;
+    margin-right: 0px;
+}
